@@ -1,4 +1,6 @@
 MongoRails::Application.routes.draw do
+  get "sessions/new"
+  get "sessions/create"
   resources :users
   root 'users#new'
 

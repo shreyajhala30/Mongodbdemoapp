@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0.rc1'
+gem 'rails', '4.0.2'
 
 gem 'mongoid', git: 'git://github.com/mongoid/mongoid.git'
 # Use SCSS for stylesheets
@@ -30,6 +30,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'sorcery'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
